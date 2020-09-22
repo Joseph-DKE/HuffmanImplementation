@@ -1,6 +1,12 @@
 #include <iostream>
 #include <fstream>
 
+
+/**
+This code was not derived and edited from any preexisting code like encode.cpp was.
+Everything here was made from scratch.
+*/
+
 using namespace std;
 
 int main()
