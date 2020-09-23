@@ -28,9 +28,18 @@ int main()
     ifstream dictfile;
     dictfile.open(dictionary, ios::in);
 
+    bool breaker{false};
     while (getline(dictfile, dict))
     {
-        tet = tet + "\n" + dict;
+        if (breaker == false)
+        {
+            tet = tet + dict;
+            breaker = true;
+        }
+        else
+        {
+            tet = tet + "\n" + dict;
+        }
     }
     dictfile.close();
 
