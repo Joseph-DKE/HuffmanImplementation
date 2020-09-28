@@ -6,3 +6,4 @@ The decoding implementation takes the encoded file and the dictionary and prints
 Note1: Takes in only text files and prints out only text files.
 Note2: Originally made totakein Base64 text.
 Note3: Filename should not have spaces in it.
+Note4: Does not actually compress files.
